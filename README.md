@@ -7,6 +7,12 @@ This project is a website source code that generates various Hypixel items, pets
 - Create pets, accessories, and more
 - Easy-to-use interface (details can be found in the source code)
 
+## Project Preview
+
+Here is a screenshot of how the website looks:
+
+![Main Page](images/screenshot1.png) <!-- Update the path accordingly -->
+
 ## Credits
 - **NorySight** - for the original source code
 - **Velvetrealms** - for contributing to the project
