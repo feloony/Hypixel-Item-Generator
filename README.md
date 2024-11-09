@@ -11,7 +11,7 @@ This project is a website source code that generates various Hypixel items, pets
 
 Here is a screenshot of how the website looks:
 
-![Main Page](images/screenshot1.png) <!-- Update the path accordingly -->
+![Main Page](screenshot1.png) <!-- Update the path accordingly -->
 
 ## Credits
 - **NorySight** - for the original source code
