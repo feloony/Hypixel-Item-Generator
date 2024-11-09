@@ -1,0 +1,119 @@
+/*
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Fira+Code:wght@400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1a202c;
+  color: #e2e8f0;
+}
+
+.form-section {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.custom-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.custom-input:focus {
+  border-color: #ff7e5f;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 126, 95, 0.2);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #4fd1c5, #4299e1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #2d3748;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #718096;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+textarea#output {
+  font-family: "Fira Code", monospace;
+}
+
+.form-section {
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #4299e1, #4fd1c5);
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(90deg, #2b6cb0, #38b2ac);
+}
+
+.custom-input,
+.custom-select {
+  transition: border-color 0.2s ease-in-out;
+}
+
+.custom-input:focus,
+.custom-select:focus {
+  border-color: #4fd1c5;
+  box-shadow: 0 0 0 3px rgba(79, 209, 197, 0.5);
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .form-section {
+    margin-bottom: 1rem;
+  }
+}
+*/
